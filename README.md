@@ -9,11 +9,14 @@ This is a simple example to illustrate how Shiny R can apply to Kaplan-Meier sur
 The data was used in this example is the "tongue" data from the "OIsurv" library. In addition, two random sample columns were added to this data frame, gender and category. 
  
 There are two main features in this Shiny app:
- 1) drop down list 
+
+1) drop down list 
     - where you can select which features you want to observe
- 2) slider bar
+
+2) slider bar
     - where you can select a certain time point to observe
     - the survival probability of each class from the feature you choose will show in the table below the survival graph
+
 
 The global, server, ui R code are included in this repository.
  
